@@ -1,0 +1,14 @@
+[package]
+name = "proc-caesar"
+version = "1.0.0"
+authors = ["Aleksey Kladov <aleksey.kladov@gmail.com>"]
+repository = "https://github.com/matklad/proc-caesar"
+description = "Procedural macro to break Rust IDEs"
+license = "MIT OR Apache-2.0"
+edition = "2018"
+
+[dependencies]
+proc-macro2 = "0.4"
+
+[lib]
+proc-macro = true
