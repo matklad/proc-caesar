@@ -71,7 +71,7 @@ fn main() {
 The first case is "easy": IDE needs to "just" expand the macro and process the
 resulting code as usual.
 
-The second case is, as proven by proc-caesar macro, is impossible to handle in
+The second case, as proven by proc-caesar macro, is impossible to handle in
 general: connection between the tokens after the bang and the expanded code
 might be arbitrary complex. To provide correct completions for code inside
 `caesar!` macro, IDE would have to figure out the inverse transformation of
